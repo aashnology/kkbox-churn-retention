@@ -55,8 +55,7 @@ churn. See `02_weekly_cohorts.py` for the full reasoning.
 
 ### 2\. Exploratory data analysis
 
-* **Age data**: \~46% of values were implausible (0, negative, or over
-1000) — a known issue with this self-reported field. Cleaned before use.
+* **Age data**: \~46% of values were implausible (0, negative, or over 1000) — a known issue with this self-reported field. Cleaned before use.
 * **Profile completeness vs. churn**: users who left gender blank churned
 at 40.6%, vs. 60.2% for those who specified it — a real, substantial gap
 worth further investigation (see notebook for detail).
